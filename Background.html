@@ -33,11 +33,38 @@
           violet
         );
       }
+
+      @keyframes abir {
+        0% {
+          background-color: brown;
+        }
+        25% {
+          background-color: rgb(56, 94, 197);
+        }
+        50% {
+          background-color: rgb(216, 24, 174);
+        }
+        100% {
+          background-color: rgb(10, 117, 10);
+        }
+      }
+
+      .anime {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        text-align: center;
+        margin-top: 100px;
+        animation-name: abir;
+        animation-duration: 10s;
+      }
     </style>
   </head>
   <body>
     Hello
 
     <div id="grad1">Mr. Abir</div>
+
+    <div class="anime">Hello Two</div>
   </body>
 </html>
